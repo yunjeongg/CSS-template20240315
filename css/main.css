@@ -210,3 +210,158 @@ section.about ul.sub-container li .text .more::before {
   text-align: center; /*텍스트중앙정렬*/
   line-height: 30px; /*텍스트중앙정렬*/
 }
+
+/* 실습 section.innovation style */
+section.innovation {
+  margin: 80px 0;
+}
+section.innovation .title p {
+  margin-bottom: 20px;
+}
+section.innovation .img-box {
+  /* border: 1px solid #000; */
+  height: 510px;
+  background: url(../img/product_1.jpg);
+  position: relative;
+}
+section.innovation .sub-container .inner {
+  /* border: 1px solid #000; */
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+}
+section.innovation .sub-container .inner .en {
+  background: #fff;
+  padding: 20px;
+}
+section.innovation .sub-container .inner .bottom {
+  background: #123;
+  padding: 20px 60px;
+  color: #fff;
+}
+section.innovation .sub-container .inner .bottom p {
+  float: left;
+}
+section.innovation .sub-container .inner .bottom a {
+  float: right;
+  background: #ff8342;
+  display: block;
+  padding: 8px 0;
+  width: 130px;
+  text-align: center;
+  border-radius: 40px;
+}
+section.innovation .sub-container .inner .bottom a:hover {
+  background: #fff;
+  color: #ff8342;
+}
+
+/* 실습 section.me style */
+section.me {
+  background: url(../img/me.jpg);
+  border: 5px solid tomato;
+  position: relative;
+}
+section.me .title {
+  padding: 50px 0 30px; 
+}
+section.me .sub-container {
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+  padding: 30px;
+}
+section.me .list .fa,
+section.me .list .far {
+  color: #ff8342;
+  margin-right: 10px;
+}
+
+section.me .list li p {
+  font-size: 12px;
+  padding: 25px;
+  line-height: 1.5;
+}
+
+section.me .list .more {
+  display: block;
+  font-weight: 700;
+  padding: 0 25px 0px;
+}
+section.me .list li:first-child .more {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+section.me .list .in em {
+  padding: 25px;
+  font-weight: 700;
+}
+section.me .list .in em::after {
+  display: block;
+  background: orange;
+}
+section.me .list .in p {
+  display: inline;
+}
+#incruit-btn {
+  background: #ff8342;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  display: block;
+  width: 250px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#incruit-btn:hover {
+  background: #fff;
+  color: #ff8342;
+  border: 1px solid #ff8342;
+}
+
+/* 실습 section.sns style */
+section.sns {
+  /* background: orchid; */
+  margin: 50px 0;
+  position: relative;
+}
+section.sns .sub-container a {
+  /* border: 5px solid #000; */
+  float: left;
+  width: 25%;
+  height: 300px;
+  margin: 2%;
+
+}
+section.sns .sub-container a .img-box {
+  width: 30%;
+  height: 300px;
+
+}
+section.sns .sub-container a .bottom {
+  margin: 30px 10px;
+  font-weight: 700;
+}
+section.sns .sub-container a .bottom .color {
+  color: #ff8342;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 10px;
+
+}
+section.sns .sub-container a .bottom .time {
+  margin: 30px 0;
+  color: #ddd;
+}
+
+
+
+
+
+
+
+
