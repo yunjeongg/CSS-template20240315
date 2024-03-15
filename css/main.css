@@ -7,7 +7,10 @@ header {
   line-height: 100px; /*1. header nav height 맞추기*/
   width: 100%;
   position: fixed; /*이효과를 쓰면 가로가 깨져서 가로값을 설정해줘야함*/
+  /*이효과를 써서 스크롤을 써도 화면에 고정*/
+  /*이효과를 써서 header이 배경화면 위로 올라감*/
   top: 0;
+  z-index: 9999;
 }
 header .inner-header {
   /* border: 3px solid tomato; */
@@ -74,4 +77,51 @@ header .inner-header .tnb li:last-child i {
 
 header .inner-header .gnb-mobile { /*모바일버튼 일단숨기기*/
   display: none;
+}
+
+/* section.main style */
+section.main {
+  background: url(../img/vis_4.jpg) no-repeat center/cover fixed;
+  height: 100vh; /*배경화면을 화면이 보이는 만큼*/
+  position: relative; /*화면정중앙 기준이 될 부모박스*/
+}
+
+section.main .main-title {
+  /* background: red; */
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 10px #123;
+}
+section.main .main-title h2 {
+  font-size: 55px;
+}
+section.main .main-title p {
+  font-size: 25px;
+  margin: 20px 0;
+}
+section.main .main-title .view {
+  font-size: 15px;
+  letter-spacing: 2px;
+  position: relative;
+  display: block;
+
+  width: 180px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  padding: 8px 0;
+  overflow: hidden;
+}
+section.main .main-title .view::after {
+  content: '';
+  width: 0;
+  height: 100%;
+  background: rgba(255,255,255, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+}
+section.main .main-title .view:hover::after {
+  width: 100%;
 }

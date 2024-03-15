@@ -40,3 +40,10 @@ body {
 br.mo {
   display: none;
 }
+
+.center { /*화면정중앙에 보내기 공식*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
